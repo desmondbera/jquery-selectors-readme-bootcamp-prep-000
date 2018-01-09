@@ -1,5 +1,10 @@
 // declare your functions here...
 function paragraphSelector() {
-  var pTags = $('p');
+  const pTags = $('p');
   return pTags;
+}
+
+function lastImageSelector() {
+  const lastImg = $('img:last');
+  return lastImg;
 }
