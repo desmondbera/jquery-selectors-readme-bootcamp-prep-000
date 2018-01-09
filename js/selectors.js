@@ -20,6 +20,15 @@ function divSelector() {
 }
 
 function firstListItem() {
-  const listPics = $('#pic-list ul:first-child');
+  const listPics = $('div.pics #pic-list.ul:first-child');
   return listPics;
 }
+
+/*
+
+<div class="pics">
+    <ul id="pic-list">
+      <li>
+        <img src="https://s3.amazonaws.com/after-school-assets/awesome.jpg">
+      </li>
+*/
